@@ -17,17 +17,5 @@
 			this.MyNumber = MyNumber;
 			this.MyArray = MyArray;
 		}
-		
-		
-		public override function clone():Event
-		{
-			return new MyEvent(MyType,MyNumber,MyArray);
-		}
-		
-		
-		public override function toString():String
-		{
-			return formatToString("AlarmEvent", "type", "bubbles", "cancelable", "eventPhase", "MyType","MyNumber","MyArray");
-		}
 	}
 }
