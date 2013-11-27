@@ -1,0 +1,73 @@
+body {background-color:#9bc6c4; margin:0px; padding:0px; font-family: Tahoma;}
+#bord {width: 962px; border-left: 1px white solid; border-right: 1px white solid;}
+#main {float:left; width: 960px; background-color:white; border-left: 1px #534246 solid; border-right: 1px #534246 solid;}
+
+
+#top_menu {width: 960px; border-top: 1px #534246 solid; border-bottom: 1px #534246 solid;}
+#top_menu ul {width: 960px; height: 30px; margin:0px; padding:0px; list-style:none; }
+#top_menu li {float:left; height: 30px; padding-left: 50px; padding-right: 30px; padding-top: 5px;   font-size: 14px; text-decoration: none; font-weight:bold;}
+#top_menu li a:link {color: #534246; text-decoration: none;}
+#top_menu li a:hover {color: #134550;}
+
+
+#alf {font-size: 12px; margin-left: 305px; margin-right:240px; text-align:left; padding-left: 15px; padding-right: 15px;}
+#alf a:link {color: #154378; text-decoration: underline;}
+#alf a:hover {color: #83aa17;}
+
+
+#left {float:left; width:295px;  text-align:left; margin-left: 15px;}
+#right {float: right; width: 230px; text-align:left; padding-left: 15px;}
+#center {margin-left: 310px; margin-right:240px; text-align:left; padding-left: 15px; padding-right: 15px;}
+
+#center ul {list-style:square}
+#center li {font-size: 12px}
+
+h1 {font-size:18px; color: #5f9e9a;font-weight: normal; margin-left: 5px;margin:0px; padding:0px; }
+#left ul {list-style:none; }
+#left li {font-size: 14px;  background-image: url("images/bullit.jpg"); background-position: left; background-repeat: no-repeat;}
+#left li a:link {margin-left: 20px; color: #134550;}
+#left li a:hover {margin-left: 20px; color: #5f9e9a;}
+#left li a:visited {margin-left: 20px;}
+
+li#selected {background-image: url("images/bullit_sel.jpg"); background-position: left top; }
+li#selected span {margin-left: 20px; color: #534246; }
+ul#add_menu li {font-size: 12px; background-image: url("images/bullit_add.jpg"); background-position: left; background-repeat: no-repeat;}
+ul#add_menu li a:link {margin-left:15px; }
+ul#add_menu li a:hover {margin-left:15px; }
+ul#add_menu li a:visited {margin-left:15px; }
+
+
+h3 {font-size: 12px; font-weight:bold; line-height: 16px; color: #534246; margin:0px; padding:0px;}
+.news {width: 225px; padding-top: 15px; }
+.news span {float: left; font-size: 11px;}
+.news img {border: 1px #534246 solid; }
+.news p {font-size: 12px; }
+a.next:link {color: #5f9e9a; font-size: 11px; font-weight: bold; text-decoration: none;}
+a.next:hover {color: #134550}
+
+#center p {font-size: 12px; }
+h2 {font-size: 14px; color: #5f9e9a;}
+
+table {cellspacing:0px; cellpadding:0px; font-size: 11px;  border: 1px #534246 solid;}
+
+table#img {width: 100%; cellspacing:5px; border: 0;}
+table#img td {align: center; valign:top}
+
+table#img a:link {color: white;}
+table#img a:link:hover {color: #83aa17;}
+table#img a:visited {color: white;}
+table#img a:visited:hover {color: #83aa17;}
+
+#cont1 {float:left; position:relative; right:240px; border-right: 1px #5f9e9a dotted; width: 100%}
+
+#cont2 {float:left; position:relative; right:415px; border-right: 1px #5f9e9a dotted; width: 100%}
+
+#cont3 {float:left; position:relative; left:655px; width: 100%}
+
+#bottom {float:left; border-top: 1px #534246 solid; font-size: 11px; color: #534246; text-align:left; padding-left: 15px; width: 945px}
+#liveinternet {float: right;padding-left: 15px;}
+
+@charset "utf-8";
+/* CSS Document */
+
+
